@@ -1,0 +1,70 @@
+### PyWeightTracker.py - Logiciel de suivi de poids
+
+- Nom du fichier : PyWeightTracker.py
+- Description : Logiciel de suivi de poids
+- Auteur(s) : Électro L.I.B (2023)
+- Optimisation : ChatGPT2
+- Version : 1.0
+- Licence : GPLv3
+
+Ce programme est un logiciel libre : vous pouvez le redistribuer et/ou le modifier
+ conformément aux dispositions de la licence publique générale GNU telle que publiée
+ par la Free Software Foundation, soit la version 3 de la licence, ou (à votre choix)
+ toute version ultérieure.
+
+Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE GARANTIE ;
+ sans même la garantie implicite de QUALITÉ MARCHANDE ou D'ADÉQUATION À UNE UTILISATION
+ PARTICULIÈRE. Consultez la licence publique générale GNU pour plus de détails.
+
+Vous devez avoir reçu une copie de la licence publique générale GNU avec ce programme.
+                            --> COPYING.txt <--
+ Si ce n'est pas le cas, consultez <https://www.gnu.org/licenses/gpl-3.0.txt>.
+
+---
+
+Librairie supplémentaire à installer pour faire fonctionner "PyWeightTracker.py":
+
+matplotlib :
+- Site officiel : https://matplotlib.org/
+- Licence : BSD 
+  Vous pouvez trouver des informations sur la licence utilisée par matplotlib dans la section "License" de leur site web.
+
+tkcalendar :
+- Page GitHub : https://github.com/j4321/tkcalendar
+- Licence : MIT 
+  Vous pouvez trouver des informations sur la licence utilisée par tkcalendar dans le fichier LICENSE ou dans la documentation du dépôt GitHub.
+
+---
+
+Préparation de la machine pour l'exécution de code Python
+----------------------------------------------------------
+
+Étapes pour préparer l'ordinateur :
+
+1. **Installer Python :**
+   - Rendez-vous sur le site officiel de Python (https://www.python.org/) pour télécharger la version compatible avec votre système d'exploitation.
+   - Suivez les instructions d'installation pour installer Python.
+
+2. **Installer les bibliothèques :**
+   - Ouvrez une fenêtre de terminal ou de ligne de commande.
+     ```
+     pip install -r requirements.txt
+     ```
+
+     ou
+
+   - Utilisez la commande pip pour installer les bibliothèques requises :
+     ```
+     pip install matplotlib
+     pip install tkcalendar
+     ```
+
+3. **Exécuter le programme Python :**
+     ```
+     python PyWeightTracker.py
+     ```
+     ou
+     ```
+     python3 PyWeightTracker.py
+     ```
+
